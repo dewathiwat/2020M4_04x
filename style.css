@@ -55,6 +55,17 @@ body {
         height: 100px;
     }
 }
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 50%;
+        
+    }
+    .sideboard {
+        width: 50%;
+        background-color: rgb(163, 163, 113);
+        height: 400px;
+    }
+}
 .post {
     background-color: rgb(110, 183, 189);
     height: 100px;
