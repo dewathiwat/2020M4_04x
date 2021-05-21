@@ -20,13 +20,40 @@ body {
     height: 100px;
 }
 .content {
-    width: 100%;
-    background-color: gray;
+    width: 60%;
+
 }
 .sideboard {
-    width: 100%;
+    width: 40%;
     background-color: rgb(163, 163, 113);
     height: 400px;
+}
+@media screen and (max-width: 575px) {
+    .content {
+        width: 100%;
+        background-color: gray;
+    }
+    .sideboard {
+        width: 100%;
+        background-color: rgb(163, 163, 113);
+        height: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+
+    }
+
+    .sideboard {
+        width: 100%;
+        background-color: darkgoldenrod;
+        height: 400px;
+    }
+    .banner {
+        background-color: blue;
+        height: 100px;
+    }
 }
 .post {
     background-color: rgb(110, 183, 189);
